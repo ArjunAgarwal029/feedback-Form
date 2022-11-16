@@ -1,0 +1,49 @@
+<html>
+<head>
+    <title>FEEDBACK FORM</title>
+    <link rel="stylesheet" href="feed.css">
+</head>
+<body>
+    <div class="form">
+        <center><h1 class="heading">FEEDBACK FORM</h1></center>
+         <form action="#">
+            <div class="row">
+                <div class="input">
+                    <input type="text" required>
+                    <label>First Name</label>
+                </div>
+                <div class="input k">
+                    <input type="text" required>
+                    <label>Last Name</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="input e">
+                    <input type="email" required>
+                    <label>Email</label>
+                </div>
+                <div class="input w">
+                    <input type="text" required>
+                    <label>Website Name</label>
+                </div>
+            </div>
+            <div class="row textarea ">
+                <div class="input">
+                    <textarea  cols="30" rows="10" ></textarea>
+                    <label>Feedback</label>
+                </div>
+            </div>
+            <div class="row submit">
+                <div class="input">
+                    <div class="inner"></div>
+                    <input type="submit" value="SUBMIT">
+                </div>
+            </div>
+         </form>
+    </div> 
+    <script src="https://www.gstatic.com/firebasejs/8.4.2/firebase.js"></script>
+    <script src="./fireConfig.js"></script>
+    <script src="feed.js"></script> 
+</body>
+</html>
+ 
